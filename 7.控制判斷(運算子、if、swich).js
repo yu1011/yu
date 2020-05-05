@@ -141,9 +141,4 @@ switch(light){
     default:
     alert('沒有任何資料');
     break;
-}
-
-
-
-
-var 
+} 
