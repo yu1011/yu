@@ -59,7 +59,20 @@ for (i form 0 to n-1) do
     min = arr[i]
   end if
 end for 
- 
+  
+=========================================
+  
+Array.prototype.min =function(){
+var min = arr[0];
+var len = arr.length;
+for (i=1 ;i < len ; i++){
+    if(arr[i] < min){
+        min = arr[i];
+    }
+}
+return min;
+}  
+  
 =========================================
 //作業檢討：Project1 字串反轉 
 
