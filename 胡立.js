@@ -7,6 +7,13 @@ for (i from 1 to 100) do
   end if
  end for
  =========================================
+   function OddNumber(){
+    for (i=1; i<=100;i++)
+    if((i % 2)==1){ console.log("奇數")}
+else {console.log(i+"偶數")}
+}
+OddNumber();
+ =========================================
 
 //Unit1.5：實戰練習：fizz buzz 
 // 3 的倍數 印 fizz
